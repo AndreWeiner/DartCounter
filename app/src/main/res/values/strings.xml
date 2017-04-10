@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Dart Counter</string>
+    <string name="player1">Player 1</string>
+    <string name="player2">Player 2</string>
+    <string name="score1">501</string>
+    <string name="score2">501</string>
+    <string name="number">0</string>
+    <string name="times">x</string>
+    <string name="multiplier">1</string>
+</resources>

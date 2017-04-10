@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#80cbc4</item>
+        <item name="colorPrimaryDark">#009688</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">#80cbc4</item>
+    </style>
+
+    <style name="numberButton">
+        <item name="android:layout_height">@dimen/buttonHeight</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="switchButton">
+        <item name="android:layout_height">@dimen/buttonHeight</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="playerField">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <style name="playerText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/largeText</item>
+        <item name="android:layout_marginBottom">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <style name="scoreText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">@dimen/largeText</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="scoreLine">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/mediumText</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingStart">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingEnd">@dimen/activity_horizontal_margin</item>
+    </style>
+
+</resources>
